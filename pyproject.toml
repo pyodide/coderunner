@@ -1,0 +1,11 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling<1.22"]
+
+[project]
+requires_python = "3.10"
+name = "useful-coderunner"
+version = "1.0"
+
+[tool.hatch.build.targets.wheel]
+packages = ["coderunner"]
