@@ -3,7 +3,7 @@ build-backend = "hatchling.build"
 requires = ["hatchling<1.22"]
 
 [project]
-requires_python = "3.10"
+requires-python = "3.10"
 name = "useful-coderunner"
 version = "1.0"
 
